@@ -2,11 +2,11 @@ import "./Nav.css";
 import logo from "../../images/logo.svg";
 const Nav = () => {
   return (
-    <nav>
+    <nav className="top-nav">
       <div className="logo">
-        <img src={logo} alt="Company logo" />
+        <img src={logo} alt="Company logo" className="logo__img" />
       </div>
-      <button type="button" className="btn btn-cta">
+      <button type="button" className="btn btn-cta btn-cta__top">
         Try it free
       </button>
     </nav>
