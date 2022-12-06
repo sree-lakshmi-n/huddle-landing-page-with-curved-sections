@@ -1,0 +1,43 @@
+.header {
+  padding: 9.6rem 0 3.2rem;
+}
+.header-content {
+  text-align: center;
+  margin-bottom: 7.2rem;
+}
+.header-content__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--font-wt-bold);
+  font-size: 3.6rem;
+  margin-bottom: 3.2rem;
+  line-height: 1.2;
+}
+.header-content__text {
+  font-size: 1.8rem;
+  width: 40%;
+  margin: auto;
+  line-height: 1.6;
+  margin-bottom: 3.2rem;
+}
+.btn-cta {
+  font-weight: var(--font-wt-semi-bold);
+  font-family: inherit;
+  background-color: var(--pink);
+  color: var(--white);
+  border: none;
+}
+.header-image {
+  text-align: center;
+}
+.header-image img {
+  width: 100%;
+}
+@media screen and (max-width: 700px) {
+  .header-content__title {
+    font-size: 3rem;
+  }
+  .header-content__text {
+    font-size: 1.4rem;
+    width: 90%;
+  }
+}
