@@ -1,3 +1,19 @@
+:root {
+  /* COLORS */
+  /* Primary */
+  --pink: hsl(322, 100%, 66%);
+  --light-pink: hsl(321, 100%, 78%);
+  --light-red: hsl(0, 100%, 63%);
+
+  /* Neutral */
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --very-pale-blue: hsl(207, 100%, ;98%);
+
+  /* TYPOGRAPHY */
+  --font-wt-regular: 400;
+  --font-wt-semi-bold: 600;
+  --font-wt-bold: 700;
+}
 .App {
   text-align: center;
 }
