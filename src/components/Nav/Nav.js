@@ -6,7 +6,7 @@ const Nav = () => {
       <div className="logo">
         <img src={logo} alt="Company logo" className="logo__img" />
       </div>
-      <button type="button" className="btn btn-cta btn-cta__top">
+      <button type="button" className="btn btn-cta__top">
         Try it free
       </button>
     </nav>
