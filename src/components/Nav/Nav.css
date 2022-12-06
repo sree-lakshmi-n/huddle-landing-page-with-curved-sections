@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 6.4rem 3.2rem 3.2rem;
+  padding: 6.4rem 0 3.2rem;
 }
 .logo__img {
   width: 100%;
