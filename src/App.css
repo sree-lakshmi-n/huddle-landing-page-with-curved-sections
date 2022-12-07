@@ -16,7 +16,5 @@
   --font-wt-bold: 700;
 }
 .container {
-  width: 90%;
-  margin: auto;
   color: var(--very-dark-cyan);
 }
