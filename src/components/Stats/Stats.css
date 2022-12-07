@@ -1,0 +1,16 @@
+.stats-container {
+  padding: 8.4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25.6rem;
+}
+img {
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .stats-container {
+    flex-direction: column;
+    gap: 3.6rem;
+  }
+}
