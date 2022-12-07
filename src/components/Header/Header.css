@@ -7,12 +7,13 @@
   text-align: center;
   margin-bottom: 7.2rem;
 }
-.header-content__title {
+.title {
   font-family: "Poppins", sans-serif;
   font-weight: var(--font-wt-bold);
   font-size: 3.6rem;
   margin-bottom: 3.2rem;
   line-height: 1.2;
+  text-transform: capitalize;
 }
 .header-content__text {
   font-size: 1.8rem;
