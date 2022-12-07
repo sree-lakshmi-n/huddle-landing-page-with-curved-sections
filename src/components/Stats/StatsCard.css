@@ -1,0 +1,17 @@
+.stats-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.stats-card__iconbox {
+  width: 30%;
+}
+.stats-card__data {
+  font-size: 7.2rem;
+  font-weight: var(--font-wt-bold);
+}
+.stats-card__label {
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--light-grey);
+}
