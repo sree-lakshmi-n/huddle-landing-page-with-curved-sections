@@ -15,3 +15,8 @@
   text-align: center;
   color: var(--light-grey);
 }
+@media screen and (max-width: 800px) {
+  .stats-card__data {
+    font-size: 4.8rem;
+  }
+}
