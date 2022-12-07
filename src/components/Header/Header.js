@@ -16,7 +16,7 @@ const Header = () => {
         <button className="btn btn-cta"> Get Started For Free</button>
       </div>
       <div className="header-image">
-        <img src={image} alt="Screen mockups image" />
+        <img src={image} alt="Screen mockups" />
       </div>
     </header>
   );
