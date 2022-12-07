@@ -31,7 +31,7 @@
   justify-content: center;
   gap: 6.4rem;
   align-items: center;
-  max-width: 90%;
+  max-width: 80%;
   margin: auto;
 }
 .feature-card-wrapper:nth-child(odd) .feature-card__imgbox {
