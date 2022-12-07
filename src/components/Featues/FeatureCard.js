@@ -3,11 +3,11 @@ const FeatureCard = (props) => {
   return (
     <div className="feature-card">
       <div className="feature-card__imgbox">
-        <img src={props.image} alt={props.altMsg} />
+        <img src={props.features.image} alt={props.features.altMsg} />
       </div>
       <div className="feature-card__contentbox">
-        <p className="feature-card__title">{props.title}</p>
-        <p className="feature-card__content">{props.content}</p>
+        <p className="feature-card__title">{props.features.title}</p>
+        <p className="feature-card__content">{props.features.content}</p>
       </div>
     </div>
   );
