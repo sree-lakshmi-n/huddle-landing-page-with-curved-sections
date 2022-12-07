@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-content">
-        <h1 className="header-content__title">
+        <h1 className="header-content__title title">
           {" "}
           Build The Community Your Fans Will Love
         </h1>
