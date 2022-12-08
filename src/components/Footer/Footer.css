@@ -1,0 +1,21 @@
+.footer {
+  background-color: var(--very-dark-cyan);
+  padding: 6.4rem 0;
+  position: relative;
+}
+.footer::before {
+  content: "";
+  background-image: url("../../images/bg-footer-top-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  min-height: 16rem;
+  width: 100%;
+  position: absolute;
+  bottom: 99%;
+}
+@media screen and (max-width: 800px) {
+  .footer::before {
+    background-image: url("../../images/bg-footer-top-mobile.svg");
+  }
+}
