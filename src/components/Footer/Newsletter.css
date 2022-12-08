@@ -1,3 +1,6 @@
+.newsletter-section {
+  order: 1;
+}
 .newsletter__title {
   text-transform: uppercase;
   font-weight: var(--font-wt-semi-bold);
@@ -29,9 +32,13 @@
   -ms-border-radius: 0.7rem;
   -o-border-radius: 0.7rem;
   width: 40%;
+  box-shadow: unset;
 }
 
 @media screen and (max-width: 800px) {
+  .newsletter-section {
+    order: 0;
+  }
   .newsletter__form {
     flex-direction: column;
     gap: 1.2rem;
