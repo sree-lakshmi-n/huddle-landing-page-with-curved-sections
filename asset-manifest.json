@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/huddle-landing-page-with-curved-sections/static/css/main.4698e5ed.css",
+    "main.js": "/huddle-landing-page-with-curved-sections/static/js/main.f8a36e18.js",
+    "static/js/787.2857ba1e.chunk.js": "/huddle-landing-page-with-curved-sections/static/js/787.2857ba1e.chunk.js",
+    "static/media/illustration-flowing-conversation.svg": "/huddle-landing-page-with-curved-sections/static/media/illustration-flowing-conversation.447b9b47aef8c266f047e609cbf11004.svg",
+    "static/media/illustration-your-users.svg": "/huddle-landing-page-with-curved-sections/static/media/illustration-your-users.c07ebfaafd557ff00fa41ee62081bcac.svg",
+    "static/media/illustration-grow-together.svg": "/huddle-landing-page-with-curved-sections/static/media/illustration-grow-together.3c29212c7a9ccd6cccf0412e4b520833.svg",
+    "static/media/logo.svg": "/huddle-landing-page-with-curved-sections/static/media/logo.3c5a854404daac9e68209a04cf4dfbbe.svg",
+    "static/media/screen-mockups.svg": "/huddle-landing-page-with-curved-sections/static/media/screen-mockups.7b6cb4d9270f53c0f45bbf842e8ce077.svg",
+    "static/media/icon-communities.svg": "/huddle-landing-page-with-curved-sections/static/media/icon-communities.e889ff65d255a5e94c8edc7eaa66e423.svg",
+    "static/media/icon-messages.svg": "/huddle-landing-page-with-curved-sections/static/media/icon-messages.a93f061b7c60758bb4ba41887ad0ff20.svg",
+    "index.html": "/huddle-landing-page-with-curved-sections/index.html",
+    "static/media/bg-section-bottom-desktop-1.svg": "/huddle-landing-page-with-curved-sections/static/media/bg-section-bottom-desktop-1.749314bcb6b45ecfe1ff.svg",
+    "static/media/bg-section-top-desktop-1.svg": "/huddle-landing-page-with-curved-sections/static/media/bg-section-top-desktop-1.d6d9d44b00bbb80d5065.svg",
+    "static/media/bg-section-top-mobile-1.svg": "/huddle-landing-page-with-curved-sections/static/media/bg-section-top-mobile-1.2c00de768d6a3f0aff63.svg",
+    "static/media/bg-section-bottom-mobile-1.svg": "/huddle-landing-page-with-curved-sections/static/media/bg-section-bottom-mobile-1.140d382c122e27b21f84.svg",
+    "static/media/bg-footer-top-desktop.svg": "/huddle-landing-page-with-curved-sections/static/media/bg-footer-top-desktop.8c0b6c1db046eed123c2.svg",
+    "static/media/bg-footer-top-mobile.svg": "/huddle-landing-page-with-curved-sections/static/media/bg-footer-top-mobile.c940267b0f9e81dab354.svg",
+    "main.4698e5ed.css.map": "/huddle-landing-page-with-curved-sections/static/css/main.4698e5ed.css.map",
+    "main.f8a36e18.js.map": "/huddle-landing-page-with-curved-sections/static/js/main.f8a36e18.js.map",
+    "787.2857ba1e.chunk.js.map": "/huddle-landing-page-with-curved-sections/static/js/787.2857ba1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4698e5ed.css",
+    "static/js/main.f8a36e18.js"
+  ]
+}
