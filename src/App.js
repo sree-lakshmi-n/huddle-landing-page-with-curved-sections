@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Stats from "./components/Stats/Stats";
 import Features from "./components/Featues/Features";
 import Cta from "./components/CTA/Cta";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="container">
@@ -12,6 +13,7 @@ function App() {
       <Stats />
       <Features />
       <Cta />
+      <Footer />
     </div>
   );
 }
