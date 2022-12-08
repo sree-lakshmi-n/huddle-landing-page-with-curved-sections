@@ -14,6 +14,10 @@
   position: absolute;
   bottom: 99%;
 }
+.footer-contents {
+  width: 80%;
+  margin: auto;
+}
 @media screen and (max-width: 800px) {
   .footer::before {
     background-image: url("../../images/bg-footer-top-mobile.svg");
