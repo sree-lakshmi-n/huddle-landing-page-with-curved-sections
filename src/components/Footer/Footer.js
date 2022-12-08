@@ -3,7 +3,9 @@ import Newsletter from "./Newsletter";
 const Footer = () => {
   return (
     <div className="footer">
-      <Newsletter />
+      <div className="footer-contents">
+        <Newsletter />
+      </div>
     </div>
   );
 };
