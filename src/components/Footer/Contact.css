@@ -1,6 +1,10 @@
+.contact-container {
+  width: 40%;
+}
 .contact-logo {
   filter: brightness(0) invert(1);
   margin-bottom: 2.4rem;
+  width: 50%;
 }
 .contact-content {
   margin-bottom: 2.4rem;
@@ -23,4 +27,17 @@
   display: flex;
   gap: 1.2rem;
   align-items: center;
+}
+@media screen and (max-width: 900px) {
+  .contact-container {
+    width: unset;
+  }
+}
+@media screen and (max-width: 800px) {
+  .contact-container {
+    width: 100%;
+  }
+  .contact-logo {
+    width: 50%;
+  }
 }
