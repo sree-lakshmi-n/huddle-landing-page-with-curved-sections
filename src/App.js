@@ -2,7 +2,7 @@ import "./App.css";
 import Nav from "./components/Nav/Nav";
 import Header from "./components/Header/Header";
 import Stats from "./components/Stats/Stats";
-import Features from "./components/Featues/Features";
+import Features from "./components/Features/Features";
 import Cta from "./components/CTA/Cta";
 import Footer from "./components/Footer/Footer";
 function App() {
