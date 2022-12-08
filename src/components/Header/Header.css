@@ -36,7 +36,7 @@
   width: 100%;
 }
 @media screen and (max-width: 700px) {
-  .header-content__title {
+  .title {
     font-size: 3rem;
   }
   .header-content__text {
