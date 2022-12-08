@@ -20,9 +20,14 @@
   color: var(--very-pale-blue);
   line-height: 1.5;
   font-size: 1.2rem;
+  display: flex;
 }
 @media screen and (max-width: 800px) {
   .footer::before {
     background-image: url("../../images/bg-footer-top-mobile.svg");
+  }
+  .footer-contents {
+    flex-direction: column;
+    gap: 5.2rem;
   }
 }
