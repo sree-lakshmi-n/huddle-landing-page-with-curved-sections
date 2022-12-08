@@ -1,6 +1,7 @@
 import "./Contact.css";
 import Logo from "../UI/Logo";
-const Contact = () => {
+import SocialNav from "./SocialNav";
+const Contact = (props) => {
   return (
     <div className="contact-container">
       <Logo className="contact-logo" />
@@ -17,6 +18,11 @@ const Contact = () => {
           <ion-icon name="mail"></ion-icon>
           <a href="mailto:example@huddle.com">example@huddle.com</a>
         </p>
+      </div>
+      <div className="social-nav">
+        {props.appList.map((app, index) => (
+          <SocialNav key={index} appName={app} />
+        ))}
       </div>
     </div>
   );
