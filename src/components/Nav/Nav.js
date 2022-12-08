@@ -1,11 +1,10 @@
 import "./Nav.css";
-import logo from "../../images/logo.svg";
+import Logo from "../UI/Logo";
+
 const Nav = () => {
   return (
     <nav className="top-nav">
-      <div className="logo">
-        <img src={logo} alt="Company logo" className="logo__img" />
-      </div>
+      <Logo />
       <button type="button" className="btn btn-cta__top">
         Try it free
       </button>
