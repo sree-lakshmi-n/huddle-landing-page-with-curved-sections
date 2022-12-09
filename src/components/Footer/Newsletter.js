@@ -1,5 +1,21 @@
 import "./Newsletter.css";
+import React, { useState } from "react";
 const Newsletter = () => {
+  const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
+  const [enteredInput, setEnteredInput] = useState("");
+  const [classes, setClasses] = useState("");
+  const submitHandler = (event) => {
+    event.preventDefault();
+    if (emailRegex.test(enteredInput)) {
+      setEnteredInput("");
+      setClasses("");
+    } else {
+      setClasses("error");
+    }
+  };
+  const emailValidation = (event) => {
+    setEnteredInput(event.target.value);
+  };
   return (
     <div className="newsletter-section">
       <p className="newsletter__title">Newsletter</p>
@@ -7,10 +23,15 @@ const Newsletter = () => {
         To recieve tips on how to grow your community, sign up to our weekly
         newsletter. We’ll never send you spam or pass on your email address
       </p>
-      <form className="newsletter__form">
+      <form className={`newsletter__form ${classes}`} onSubmit={submitHandler}>
         {" "}
-        <input type="email" className="newsletter__input"></input>
-        <button type="button" className="btn btn-cta newsletter__btn">
+        <input
+          type="text"
+          className="newsletter__input"
+          value={enteredInput}
+          onChange={emailValidation}
+        ></input>
+        <button type="submit" className="btn btn-cta newsletter__btn">
           Subscribe
         </button>
       </form>
