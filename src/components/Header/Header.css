@@ -29,6 +29,10 @@
   color: var(--very-pale-blue);
   border: none;
   box-shadow: 0 1px 4px var(--light-grey);
+  cursor: pointer;
+}
+.btn-cta:hover {
+  background-color: var(--light-pink);
 }
 .header-image {
   text-align: center;
