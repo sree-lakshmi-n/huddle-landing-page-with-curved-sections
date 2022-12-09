@@ -13,6 +13,7 @@
 .newsletter__form {
   display: flex;
   gap: 2.4rem;
+  position: relative;
 }
 .newsletter__input {
   border: none;
@@ -24,6 +25,16 @@
   -o-border-radius: 0.7rem;
   width: 50%;
 }
+.error.newsletter__form::after {
+  content: "Check your email please";
+  position: absolute;
+  top: 110%;
+  color: var(--light-red);
+}
+.error .newsletter__input {
+  border: 1px solid var(--light-red);
+}
+
 .newsletter__btn {
   font-size: 1.4rem;
   border-radius: 0.7rem;
